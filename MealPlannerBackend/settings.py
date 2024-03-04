@@ -80,11 +80,11 @@ WSGI_APPLICATION = "MealPlannerBackend.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "<PGDATABASE>",
-        "USER": "<PGUSER>",
-        "PASSWORD": "<PGPASSWORD>",
-        "HOST": "<PGHOST>",
-        "PORT": "<PGPORT>",
+        "NAME": "railway",
+        "USER": "postgres",
+        "PASSWORD": "A21BbFGaF65GCBgFcDABEBCgF6gGfB3F",
+        "HOST": "roundhouse.proxy.rlwy.net",
+        "PORT": "50391",
     }
 }
 
