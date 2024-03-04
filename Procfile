@@ -1,1 +1,1 @@
-web: gunicorn MealPlannerBackend.wsgi
+web: gunicorn 'MealPlannerBackend.wsgi'
